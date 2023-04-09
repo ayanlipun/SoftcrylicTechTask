@@ -1,0 +1,14 @@
+﻿{  
+  "profiles": {
+    "SoftcrylicTech.Service": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "doc/index.html",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "local"
+      },
+      "nativeDebugging": true,
+      "applicationUrl": "https://localhost:12345;"
+    }
+  }
+}
