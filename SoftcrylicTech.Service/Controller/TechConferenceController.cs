@@ -94,7 +94,7 @@ namespace SoftcrylicTech.Service.Controller
         [Produces("application/json")]
         [ProducesResponseType(typeof(IList<EventModel>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status500InternalServerError)]
-        [HttpPut("Event/Delete")]
+        [HttpDelete("Event/Delete")]
         public async Task<IActionResult> DeleteEventInformationAsync([Required(ErrorMessage = "Event Id is manadatory!")] int eventId)
         {
             try
